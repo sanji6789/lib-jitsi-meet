@@ -1449,6 +1449,7 @@ JitsiConference.prototype.unmuteVideoParticipant = function(id) {
         return;
     }
     this.room.muteVideoParticipant(participant.getJid(), false);
+};
 /* eslint-disable max-params */
 
 /**
