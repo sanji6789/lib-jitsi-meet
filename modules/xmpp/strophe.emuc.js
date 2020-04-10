@@ -185,7 +185,7 @@ export default class MucConnectionPlugin extends ConnectionPluginListenable {
                 return true;
             }
 
-            room.onMute(iq);
+            room.onMuteVideo(iq);
 
             return true;
         }
